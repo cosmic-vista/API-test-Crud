@@ -16,7 +16,7 @@
     </div>
     <script>
         async function getdata() {
-            const response = await fetch("http://localhost:6969/tasks");
+            const response = await fetch("http://localhost:6000/tasks");
             const finaldata = await response.json()
             console.log(finaldata)
             // Loop through the tasks in finaldata and display them in the list
