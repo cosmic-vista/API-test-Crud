@@ -3,14 +3,14 @@ const express = require('express');
 const app = express()
 const tasks = require('./tasks');
 const cors = require('cors');
-const port = 6969;
+const port = 6000;
 
 app.use(express.json())
 
 app.use(cors())
 
 app.get("/", (req, res) => {
-    res.json({ message: "hello shikhar" }); // use key value pair 
+    res.json({ message: "hello user" }); // use key value pair 
 });
 
 app.get("/tasks", (req, res) => {
