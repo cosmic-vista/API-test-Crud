@@ -76,12 +76,6 @@ curl -X POST http://localhost:3001/tasks \
 - Make sure `express` and `cors` are installed (`npm install`).
 - Modify `server.js` to add more functionalities if needed.
 
-## License
 
-This project is open-source under the **ISC License**.
-
----
-
-Happy coding! 🚀
 
 
